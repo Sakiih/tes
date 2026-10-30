@@ -1,0 +1,95 @@
+/* Mengatur font agar lebih bersih */
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth; /* Membuat efek gulir antar bagian menjadi mulus */
+    color: #263746;
+    background-color: #F4F7FB;
+}
+
+.btn-primary {
+    background-color: #176BFF;
+    border-color: #176BFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #102A43;
+    border-color: #102A43;
+}
+
+.btn-outline-primary {
+    color: #176BFF;
+    border-color: #176BFF;
+}
+
+.btn-outline-primary:hover {
+    background-color: #176BFF;
+    border-color: #176BFF;
+}
+
+.bg-light {
+    background-color: #F4F7FB !important;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-color: #DCE8F5;
+}
+
+.bg-dark,
+.bg-black {
+    background-color: #102A43 !important;
+}
+
+/* --- Desain Bilah Navigasi --- */
+/* Kondisi saat berada di puncak halaman (transparan) */
+.transparan-awal {
+    background-color: transparent !important;
+    transition: background-color 0.4s ease, padding 0.4s ease;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Kondisi saat halaman digulir (kelas ini akan ditambahkan oleh jQuery) */
+.navbar-scrolled {
+    background-color: #102A43 !important; /* Navy */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* --- Desain Beranda (Hero Section) --- */
+.hero {
+    /* Gunakan warna gradien linear digabung dengan gambar (jika ada) */
+    background: linear-gradient(rgba(16, 42, 67, 0.8), rgba(23, 107, 255, 0.55)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&h=1080&q=80') center/cover;
+    height: 100vh; /* Memakan 100% tinggi layar penampil */
+    min-height: 500px;
+}
+
+/* --- Dekorasi Estetika --- */
+.garis-bawah {
+    width: 60px;
+    height: 4px;
+    background-color: #176BFF; /* Aksen biru akademik */
+    border-radius: 2px;
+}
+
+/* --- Efek Interaktif (Hover) --- */
+.efek-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.efek-hover:hover {
+    transform: translateY(-10px); /* Mengangkat kartu 10px ke atas */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Animasi gambar portofolio */
+.item-portofolio img {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.item-portofolio img:hover {
+    transform: scale(1.05); /* Memperbesar gambar 5% */
+}
