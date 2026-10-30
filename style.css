@@ -61,7 +61,7 @@ body {
 /* --- Desain Beranda (Hero Section) --- */
 .hero {
     /* Gunakan warna gradien linear digabung dengan gambar (jika ada) */
-    background: linear-gradient(rgba(16, 42, 67, 0.8), rgba(23, 107, 255, 0.55)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&h=1080&q=80') center/cover;
+    background: linear-gradient(rgba(16, 42, 67, 0.8), rgba(23, 107, 255, 0.55)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdevuzlYHPuHbdP_6AUrrUwKM8JgBGVPfIgK1lLhlMAsN2ekR63wl9OgA3&s=10') center/cover;
     height: 100vh; /* Memakan 100% tinggi layar penampil */
     min-height: 500px;
 }
